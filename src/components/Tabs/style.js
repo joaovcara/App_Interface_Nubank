@@ -1,7 +1,7 @@
-import { ScrollView } from 'react-native-gesture-handler';
+import { Animated } from 'react-native';
 import styled from 'styled-components/native';
 
-export const Container = styled.View`
+export const Container = styled(Animated.View)`
   height: 100px;
   margin-top: 20px;
 `;
